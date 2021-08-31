@@ -13,11 +13,13 @@ class MainActivity : AppCompatActivity() {
 
 
         var etNum1=findViewById<TextView>(R.id.etNum1)
-        val etNum2=findViewById<TextView>(R.id.etNu2)
-        val btnAdd=findViewById<Button>(R.id.btnAdd)
-        val btnSub=findViewById<Button>(R.id.btnSub)
-        val btnMultiplication=findViewById<Button>(R.id.btnmult)
-        val btnDivision=findViewById<Button>(R.id.btnDiv)
+        var etNum2=findViewById<TextView>(R.id.etNu2)
+        var btnAdd=findViewById<Button>(R.id.btnAdd)
+        var btnSub=findViewById<Button>(R.id.btnSub)
+        var btnMultiplication=findViewById<Button>(R.id.btnmult)
+        var btnDivision=findViewById<Button>(R.id.btnDiv)
+        var btnSubmit=findViewById<Button>(R.id.btnSubmit)
+
 
     }
 }
